@@ -1,0 +1,118 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.wrapper {
+  max-width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.buttons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[4];
+      grid-template-columns: repeat(4, auto);
+  -ms-grid-rows: (auto)[5];
+      grid-template-rows: repeat(5, auto);
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+}
+
+.button {
+  border-radius: 50%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  padding: 2.5rem 3rem;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#equal-btn {
+  width: 220%;
+  border-radius: 50px;
+  background-color: #7e0bdc;
+  color: #fff;
+}
+
+#multiply-btn,
+#mines-btn,
+#plus-btn,
+#divide-btn {
+  background-color: #e1d3ec;
+}
+
+#clean-btn {
+  background-color: orange;
+  color: #fff;
+}
+
+#open,
+#close {
+  background-color: #f2ece1;
+}
+
+.result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  height: 10vh;
+  width: 100%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 2rem;
+}
+
+#history {
+  height: 20vh;
+  color: gray;
+}
+
+.historyItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */
